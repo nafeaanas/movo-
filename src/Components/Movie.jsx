@@ -5,7 +5,7 @@ function Movie({ movie }) {
   return (
     <>
     <div className='border border-border p-1 hover:scale-95 transitions relative rounded overflow-hidden'>
-        <Link to={`/movies/${movie?.name}`} className="w-full">
+        <Link to={`/movie/${movie?.name}`} className="w-full">
             <img
              src={`/images/movies/${movie?.Image}`}
              alt={movie?.name} 
