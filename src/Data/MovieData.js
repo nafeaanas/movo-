@@ -117,3 +117,44 @@ export const Movies = [
         reviews: 23,
     }
 ]
+
+
+export const UsersData = [
+    {   
+        fullName: 'Army of the Dead',
+        message: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe, incidunt! Atque maiores officiis quae molestias illo, neque sunt quia, accusamus laborum sequi, non eligendi. Praesentium, itaque! Enim sequi corrupti aliquid.',
+        Image: '1.jpg',
+        rate: 3.4,
+    },
+    {   
+        fullName: 'Army of the Dead',
+        message: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe, incidunt! Atque maiores officiis quae molestias illo, neque sunt quia, accusamus laborum sequi, non eligendi. Praesentium, itaque! Enim sequi corrupti aliquid.',
+        Image: '2.jpg',
+        rate: 4.4,
+    },
+    {   
+        fullName: 'Army of the Dead',
+        message: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe, incidunt! Atque maiores officiis quae molestias illo, neque sunt quia, accusamus laborum sequi, non eligendi. Praesentium, itaque! Enim sequi corrupti aliquid.',
+        Image: '1.jpg',
+        rate: 5,
+    },
+    {   
+        fullName: 'Army of the Dead',
+        message: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe, incidunt! Atque maiores officiis quae molestias illo, neque sunt quia, accusamus laborum sequi, non eligendi. Praesentium, itaque! Enim sequi corrupti aliquid.',
+        Image: '1.jpg',
+        rate: 3.4,
+    },
+    {   
+        fullName: 'Army of the Dead',
+        message: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe, incidunt! Atque maiores officiis quae molestias illo, neque sunt quia, accusamus laborum sequi, non eligendi. Praesentium, itaque! Enim sequi corrupti aliquid.',
+        Image: '1.jpg',
+        rate: 3.4,
+    },
+    {   
+        fullName: 'Army of the Dead',
+        message: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe, incidunt! Atque maiores officiis quae molestias illo, neque sunt quia, accusamus laborum sequi, non eligendi. Praesentium, itaque! Enim sequi corrupti aliquid.',
+        Image: '1.jpg',
+        rate: 3.4,
+    },
+    
+]
