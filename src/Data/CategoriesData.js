@@ -5,7 +5,7 @@ export const Category = [
     },
     {
         _id: '2',
-        title: 'Historical',
+        title: 'Drama',
     },
     {
         _id: '3',
