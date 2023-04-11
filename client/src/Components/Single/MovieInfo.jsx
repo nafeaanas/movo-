@@ -3,7 +3,7 @@ import { FaShareAlt, FaPlay } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 import FlexMovieItems from '../FlexMovieItems'
 import {FiLogIn} from "react-icons/fi"
-function MovieInfo({movie}) {
+function MovieInfo({movie, setModalOpen}) {
   return (
     <div className='w-full xl:h-screen relative text-white'>
         <img
@@ -34,7 +34,10 @@ function MovieInfo({movie}) {
                     <p className='text-text text-sm leading-7'>{movie?.desc}</p>
                     <div className='grid sm:grid-cols-5 grid-cols-3 gap-4 p-6 bg-main border border-gray-800 rounded-lg'>
                       <div className='col-span-1 flex-colo border-r border-border'>
-                        <button className='w-10 h-10 flex-colo rounded-lg bg-white bg-opacity-20'>
+                        <button
+                         onClick={() =>setModalOpen(true)}
+                         className='w-10 h-10 flex-colo rounded-lg bg-white bg-opacity-20'
+                        >
                           <FaShareAlt/>
                         </button>
                       </div>
