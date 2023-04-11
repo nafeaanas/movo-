@@ -4,6 +4,9 @@ import { Input, Message, Select } from '../../../Components/UsedInputs'
 import Uploder from '../../../Components/Uploder'
 import { Category } from '../../../Data/CategoriesData'
 import { UsersData } from '../../../Data/MovieData'
+import { MdDelete } from 'react-icons/md'
+import { FaEdit } from 'react-icons/fa'
+import { ImUpload } from 'react-icons/im'
 
 
 function AddMovie() {
@@ -99,16 +102,25 @@ function AddMovie() {
                              alt={user.fullName} 
                              className='w-full h-24 object-cover rounded mb-2'
                             />
+                            <p>{user.fullName}</p>
+                            <div className='flex-rows mt-2 w-full gap-2'>
+                              <button className='w-6 h-6 flex-colo bg-dry border border-border text-subMain rounded'>
+                                <MdDelete />
+                              </button>
+                              <button className='w-6 h-6 flex-colo bg-dry border border-border text-green-600 rounded'>
+                                <FaEdit />
+                              </button>
+                            </div>
 
                         </div>
                     ))}
                 </div>
             </div>
-          <div className='flex justify-end items-center my-4'>
-            <button className='bg-main font-medium transition hover:bg-subMain border border-subMain text-white py-3 px-6 rounded w-full sm:w-auto'>
-              Change Password
+         
+            <button className='bg-subMain w-full flex-rows gap-6 font-medium text-white py-4 rounded'>
+              <ImUpload/> Publish Movie
             </button>
-          </div>
+          
         </div>
     </SideBar>
   )
